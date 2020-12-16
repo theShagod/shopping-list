@@ -13,3 +13,6 @@ Features that have not been implemented:
   - login authentication
   - offline-first (service workers)
   - not mobile-friendly (hover)
+
+
+View here: https://shagod.000webhostapp.com/
