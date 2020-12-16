@@ -1,0 +1,70 @@
+<!DOCTYPE>
+<html lang ="en">
+<head>
+  <title>Shopping List App</title>
+  <meta charset ="utf-8">
+  <meta name = "Shopping List App" content = "">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="main.css">
+</head>
+  <body>
+    <header>
+      <nav id = "nav-bar">
+
+      </nav>
+    </header>
+    <h2>Shopping List App</h2>
+    <div id = "helpmessage"></div>
+    <div id = "list-title-div">
+      <li class = "small-title">Item</li>
+      <li class = "small-title">Price</li></div>
+    <div id = "big-input">
+      <input class = "user-input"  type="text" id = "inputItem" placeholder = "Item here" value = ""><input
+       class = "user-input" type="text" id = "inputPrice" placeholder = "Price here" value = "">
+       <!--the enters are actually important, in this case, we need the input to be on the same line so we can't use enter here-->
+    </div>
+
+    </div>
+
+
+      <div id = "new-items-div-sets">
+        <hr>
+        <div class = "item-price-set" id = "ip-itemValueHere1">
+          <li class = "ip-set-element">item 1</li>
+          <li class = "ip-set-element">price 1</li>
+          <li class = "ip-set-button"></li>
+          <hr>
+        </div>
+        <div class = "item-price-set" id = "ip-itemValueHere2">
+          <li class = "ip-set-element">item 2</li>
+          <li class = "ip-set-element">price 2</li>
+          <li class = "ip-set-button"></li>
+          <hr>
+        </div>
+
+        <!--
+        <div class = "item-price-set" id = "ip-itemValueHere2">
+          <li class = "ip-set-element">item 2</li>
+          <li class = "ip-set-element">price 2</li>
+          <img src="images/trashbutton.gif" alt="">
+          <hr>
+        </div>
+        <div class = "item-price-set" id = "ip-itemValueHere3">
+          <li class = "ip-set-element">item 3</li>
+          <li class = "ip-set-element">price 3</li>
+          <hr>
+        </div>
+      -->
+
+    </div>
+
+    <div id = "button-panel">
+      <button type="submit" id="clearbutton">Clear All</button>
+      <button type="download" id="downloadbutton">Download Data</button>
+    </div>
+
+    </body>
+  <script type = "module" src="./index.js" ></script>
+
+</html>
