@@ -15,4 +15,4 @@ Features that have not been implemented:
   - not mobile-friendly (hover)
 
 
-View here: https://shagod.000webhostapp.com/
+View here: https://shagod.000webhostapp.com/grocery/
